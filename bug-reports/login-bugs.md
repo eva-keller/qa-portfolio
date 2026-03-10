@@ -1,0 +1,9 @@
+# Bug Reports – Login Page (Sauce Demo)
+
+| Bug ID  | Summary                           | Steps to Reproduce                                                                 | Expected Result                             | Actual Result                                            | Severity | Status |
+|---------|----------------------------------|----------------------------------------------------------------------------------|--------------------------------------------|---------------------------------------------------------|---------|--------|
+| BUG-01  | Login fails with locked_out_user  | 1. Go to login page<br>2. Enter `locked_out_user` / `secret_sauce`<br>3. Click Login | Error message appears preventing login     | Error message “Sorry, this user has been locked out.” appears | High    | Open   |
+| BUG-02  | No error when username field is empty | 1. Leave username empty<br>2. Enter password `secret_sauce`<br>3. Click Login   | Error “Username is required” appears       | No error message shown, login button clickable         | Medium  | Open   |
+| BUG-03  | Problem_user images not loading correctly | 1. Login as `problem_user`<br>2. Browse products page                          | All product images display correctly       | Some images are broken or swapped                       | Low     | Open   |
+| BUG-04  | Password field allows spaces      | 1. Enter `standard_user`<space> / `secret_sauce`<br>2. Click Login              | Trim spaces, login fails                     | Login succeeds with space at the end                    | Medium  | Open   |
+| BUG-05  | Performance delay for performance_glitch_user | 1. Login as `performance_glitch_user` / `secret_sauce`                          | Login completes within 2 seconds           | Page takes 10–15 seconds to load                        | Medium  | Open   |
