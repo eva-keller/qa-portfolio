@@ -1,0 +1,18 @@
+# Learning Log – 2026-03-10
+
+**Activity:** Read theory on TryQA – Software testing basics; created a learning path and set up GitHub portfolio
+
+**Topics covered:**
+- Definition of testing, test case, bug, defect, failure
+- Principles of testing (7 key principles)
+- Test levels and types (unit, integration, system, acceptance)
+- Test design techniques (equivalence partitioning, boundary value analysis)
+- Planning a learning path for QA skills
+- Setting up GitHub repo structure for portfolio
+
+**Reflection / Takeaways:**
+- I now understand the difference between a defect and a failure.
+- Equivalence partitioning and boundary value analysis are practical techniques I can apply when writing test cases for Sauce Demo.
+- Planning a learning path helps me stay organized and focused.
+- Setting up GitHub properly ensures my portfolio looks professional.
+- Testing is about structured thinking and communication, not just finding bugs.
